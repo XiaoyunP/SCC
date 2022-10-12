@@ -1,0 +1,29 @@
+#input data for the "aitranss" module
+$aims_input on
+$landauer on
+$coord   file=geometry.in
+$natoms  53
+$basis   file=basis-indices.out
+$read_omat file=omat.aims
+$scfmo   file=mos.aims
+$nsaos   2893
+$ecp     on
+$lsurc   48
+$lsurx   52
+$lsury   47
+$rsurc   32
+$rsurx   33
+$rsury   28
+$nlayers 2
+$s1i     0.1d0
+$s2i     0.05d0
+$s3i     0.025d0
+$ener    -0.4
+$estep   0.0001
+$eend    0.1
+$output  file=TE.dat
+$testing off
+$self_energy file=self.energy.in
+$valence_electrons   744
+$efermi   -0.169473978346
+$end
